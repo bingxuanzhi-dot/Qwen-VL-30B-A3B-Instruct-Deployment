@@ -21,7 +21,7 @@ pip install modelscope accelerate qwen-vl-utils
 pip install git+https://github.com/huggingface/transformers
 ```
 
-### 🚀 快速开始 (Quick Start)
+## 🚀 快速开始 (Quick Start)
 在使用前，请确保已经下载了模型权重(https://www.modelscope.cn/models/Qwen/Qwen3-VL-30B-A3B-Instruct/summary)
 1. 单图推理
 ```bash
@@ -35,4 +35,9 @@ python multi_frame/run_qwen3_multi_frame.py
 ```bash
 python multi_turn/run_qwen3_multi_turn.py
 ```
-   
+## 👏 致谢 (Acknowledgement)
+
+*   **Qwen-VL**: 本项目的核心模型来自阿里云 Qwen 团队，感谢他们的开源贡献。
+*   **Transformers**: 本项目推理脚本基于 Hugging Face Transformers 库构建。
+
+如有侵权或模型使用问题，请参考原模型的开源协议。
