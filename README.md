@@ -21,7 +21,7 @@ pip install modelscope accelerate qwen-vl-utils
 pip install git+https://github.com/huggingface/transformers
 ```
 
-### 快速开始 (Quick Start)
+### 🚀 快速开始 (Quick Start)
 在使用前，请确保已经下载了模型权重(https://www.modelscope.cn/models/Qwen/Qwen3-VL-30B-A3B-Instruct/summary)
 1. 单图推理
 ```bash
