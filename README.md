@@ -41,3 +41,5 @@ python multi_turn/run_qwen3_multi_turn.py
 *   **Transformers**: 本项目推理脚本基于 Hugging Face Transformers 库构建。
 
 如有侵权或模型使用问题，请参考原模型的开源协议。
+## 📄 License
+MIT License
