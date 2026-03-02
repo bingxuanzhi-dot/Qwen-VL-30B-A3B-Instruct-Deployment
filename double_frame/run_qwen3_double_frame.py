@@ -17,8 +17,8 @@ model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
 processor = AutoProcessor.from_pretrained(model_id, trust_remote_code = True)
 
 # 3.准备输入设备
-image_path_1 = "qwen3_vl_30b_a3b_instruct/double/frame_00000.jpg"
-image_path_2 = "qwen3_vl_30b_a3b_instruct/double/frame_00015.jpg"
+image_path_1 = "double_frame/frame_00000.jpg"
+image_path_2 = "double_frame/frame_00015.jpg"
 
 messages = [
     {
