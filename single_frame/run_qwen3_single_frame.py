@@ -28,7 +28,7 @@ messages = [
         "content":[
             {
                 "type":"image",
-                "image":"qwen3_vl_30b_a3b_instruct/single/pic.jpg"
+                "image":"single/pic.jpg"
             },
             {
                 "type":"text",
