@@ -1,3 +1,5 @@
+# Qwen-VL-30B-Instruct Deployment 🚀
+这是一个用于部署和推理 **Qwen-VL-30B-Instruct** 模型的项目，支持单图推理、多帧理解以及多轮对话。
 ## 🛠️ 环境安装 (Installation)
 
 本项目建议使用 Conda 进行环境管理，Python 版本需为 3.10。
