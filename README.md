@@ -20,3 +20,19 @@ pip install modelscope accelerate qwen-vl-utils
 # 安装最新版 Transformers (推荐从源码安装以支持最新模型)：
 pip install git+https://github.com/huggingface/transformers
 ```
+
+### 快速开始 (Quick Start)
+在使用前，请确保已经下载了模型权重(https://www.modelscope.cn/models/Qwen/Qwen3-VL-30B-A3B-Instruct/summary)
+1. 单图推理
+```bash
+python single_frame/run_qwen3_single_frame.py
+```
+2. 多帧理解
+```bash
+python multi_frame/run_qwen3_multi_frame.py
+```
+3. 多轮对话
+```bash
+python multi_turn/run_qwen3_multi_turn.py
+```
+   
