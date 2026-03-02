@@ -2,7 +2,7 @@ import torch
 from modelscope import Qwen3VLMoeForConditionalGeneration, AutoProcessor
 
 # 1.初始化模型
-model_id = "/share/public_models/qwen/Qwen3-VL/Qwen3-VL-30B-A3B-Instruct"
+model_id = "Qwen3-VL/Qwen3-VL-30B-A3B-Instruct"
 print(f"正在加载模型: {model_id}...")
 
 model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
@@ -15,7 +15,7 @@ model = Qwen3VLMoeForConditionalGeneration.from_pretrained(
 processor = AutoProcessor.from_pretrained(model_id, trust_remote_code = True)
 
 # 2.初始化对话历史
-image_path = "/home/zhibingxuan/qwen3_vl_30b_a3b_instruct/multi_turn/pic.jpg"
+image_path = "multi_turn/pic.jpg"
 
 # messages 是一个对话列表，存储整个对话的"记忆", 
 messages = [
